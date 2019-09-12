@@ -2,9 +2,9 @@
 
 ### file description：
 * vpnsetup_centos.sh：bash file, build ss server in form of IPsec/L2TP. After that, we can set vpn in ipad and iphone.
-* 
+* shadowsocks.sh: bash file, ss server file in VPS.
 
-### ipad and iphone setting:
+### pay attention: ipad and iphone setting, specificly
 进入设置 -> 通用 -> VPN。
 单击 添加VPN配置...。
 单击 类型 。选择 L2TP 并返回。
@@ -18,6 +18,6 @@
 启用 VPN 连接。
 
 ### reference:
-1. CentOS快速搭建一个属于自己的IPsec/L2TP VPN: https://wistbean.github.io/ipsec,l2tp_vpn.html#%E6%90%AD%E5%BB%BAIPsec-L2TP-VPN%E7%9A%84%E5%87%86%E5%A4%87
+1. ipad and iphone VPN: https://wistbean.github.io/ipsec,l2tp_vpn.html#%E6%90%AD%E5%BB%BAIPsec-L2TP-VPN%E7%9A%84%E5%87%86%E5%A4%87
 2. 在服务器上搭建ss：https://github.com/wistbean/vpn
 3. 各类ss客户端：https://crifan.github.io/scientific_network_summary/website/server_client_mode/ss_client/
